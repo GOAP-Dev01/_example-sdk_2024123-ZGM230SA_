@@ -90,7 +90,7 @@ set_protocol_default(void)
 static void
 learn_mode_finished_or_stop(void)
 {
-  Board_IndicateStatus(BOARD_STATUS_IDLE);
+  //Board_IndicateStatus(BOARD_STATUS_IDLE); // GOAP framework
   //Go back to smart start if the node was never included.
   //Protocol will not commence SmartStart if the node is already included in the network.
   ZAF_setNetworkLearnMode(E_NETWORK_LEARN_MODE_INCLUSION_SMARTSTART);
@@ -279,7 +279,7 @@ event_manager(const uint8_t event)
         ZAF_setNetworkLearnMode(E_NETWORK_LEARN_MODE_INCLUSION);
       }
       learnModeInProgress = true;
-      Board_IndicateStatus(BOARD_STATUS_LEARNMODE_ACTIVE);
+      //Board_IndicateStatus(BOARD_STATUS_LEARNMODE_ACTIVE); // GOAP framework
       break;
     }
     case EVENT_SYSTEM_LEARNMODE_STOP:

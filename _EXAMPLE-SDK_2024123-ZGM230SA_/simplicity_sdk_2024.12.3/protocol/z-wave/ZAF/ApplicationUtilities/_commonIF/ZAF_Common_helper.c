@@ -86,7 +86,7 @@ void ZAF_Init(TaskHandle_t AppTaskHandle, SApplicationHandles *pAppHandles)
   AppTimerInit(EAPPLICATIONEVENT_TIMER, AppTaskHandle);
 
   /* board led initialiaztion */
-  Board_IndicatorInit();
+  //Board_IndicatorInit(); // GOAP framework
 
   // Init file system
   ZAF_nvm_app_init();
