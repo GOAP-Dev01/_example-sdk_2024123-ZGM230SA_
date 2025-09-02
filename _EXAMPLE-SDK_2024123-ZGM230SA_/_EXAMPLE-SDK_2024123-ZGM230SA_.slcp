@@ -46,6 +46,7 @@ component:
 - {id: zw_appshw}
 - {id: zw_cc_association}
 - {id: zw_cc_basic}
+- {id: zw_cc_basiccontroller}
 - {id: zw_cc_binary_switch}
 - {id: zw_cc_common}
 - {id: zw_cc_configuration}

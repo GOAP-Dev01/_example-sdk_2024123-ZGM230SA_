@@ -1,0 +1,10 @@
+zw_cc_agi:
+  endpoints:
+    - endpoint: 1
+      groups:
+        - name: dummy
+          profile_msb: ASSOCIATION_GROUP_INFO_REPORT_AGI_PROFILE_CONTROL
+          profile_lsb: ASSOCIATION_GROUP_INFO_REPORT_AGI_CONTROL_KEY01
+          commands:
+            - command_class: COMMAND_CLASS_BASIC_V2
+              command: BASIC_SET_V2
