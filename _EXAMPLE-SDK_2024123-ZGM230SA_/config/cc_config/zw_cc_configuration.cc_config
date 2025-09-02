@@ -1,0 +1,123 @@
+zw_cc_configuration:
+  configurations:
+    - name: "SW1 Switch type"
+      number: 1
+      file_id: 0
+      info: "0 push, 1 toggle state, 2 toggle change"
+      size: CC_CONFIG_PARAMETER_SIZE_8_BIT
+      format: CC_CONFIG_PARAMETER_FORMAT_UNSIGNED_INTEGER
+      min_value: 0
+      max_value: 2
+      default_value: 2
+      altering_capabilities: 0
+      read_only: 0
+      advanced: 0
+    - name: "Restore state of O1 after power failure"
+      number: 17
+      file_id: 1
+      info: "0 restore, 1 no restore"
+      size: CC_CONFIG_PARAMETER_SIZE_8_BIT
+      format: CC_CONFIG_PARAMETER_FORMAT_UNSIGNED_INTEGER
+      min_value: 0
+      max_value: 1
+      default_value: 0
+      altering_capabilities: 0
+      read_only: 0
+      advanced: 0
+    - name: "Turn O1 OFF Automatically with timer"
+      number: 19
+      file_id: 2
+      info: "0 - 32535, 0 disabled"
+      size: CC_CONFIG_PARAMETER_SIZE_16_BIT
+      format: CC_CONFIG_PARAMETER_FORMAT_UNSIGNED_INTEGER
+      min_value: 0
+      max_value: 32535
+      default_value: 0
+      altering_capabilities: 0
+      read_only: 0
+      advanced: 0
+    - name: "Turn O1 ON Automatically with timer"
+      number: 20
+      file_id: 3
+      info: "0 - 32535, 0 disabled"
+      size: CC_CONFIG_PARAMETER_SIZE_16_BIT
+      format: CC_CONFIG_PARAMETER_FORMAT_UNSIGNED_INTEGER
+      min_value: 0
+      max_value: 32535
+      default_value: 0
+      altering_capabilities: 0
+      read_only: 0
+      advanced: 0
+    - name: "O1 NO/NC"
+      number: 23
+      file_id: 4
+      info: "0 NO, 1 NC"
+      size: CC_CONFIG_PARAMETER_SIZE_8_BIT
+      format: CC_CONFIG_PARAMETER_FORMAT_UNSIGNED_INTEGER
+      min_value: 0
+      max_value: 1
+      default_value: 0
+      altering_capabilities: 0
+      read_only: 0
+      advanced: 0
+    - name: "Set timer units to Seconds or Milliseconds for O1"
+      number: 25
+      file_id: 5
+      info: "0 seconds, 1 milliseconds"
+      size: CC_CONFIG_PARAMETER_SIZE_8_BIT
+      format: CC_CONFIG_PARAMETER_FORMAT_UNSIGNED_INTEGER
+      min_value: 0
+      max_value: 1
+      default_value: 0
+      altering_capabilities: 0
+      read_only: 0
+      advanced: 0
+    - name: "Factory reset"
+      number: 120
+      file_id: 6
+      info: "Factory reset"
+      size: CC_CONFIG_PARAMETER_SIZE_8_BIT
+      format: CC_CONFIG_PARAMETER_FORMAT_UNSIGNED_INTEGER
+      min_value: 0
+      max_value: 1
+      default_value: 0
+      altering_capabilities: 0
+      read_only: 0
+      advanced: 1
+    - name: "Serial Number 1"
+      number: 201
+      file_id: 7
+      info: "Serial Number 1"
+      size: CC_CONFIG_PARAMETER_SIZE_32_BIT
+      format: CC_CONFIG_PARAMETER_FORMAT_UNSIGNED_INTEGER
+      min_value: 0
+      max_value: 2147483647
+      default_value: 2147483647
+      altering_capabilities: 0
+      read_only: 1
+      advanced: 1
+    - name: "Serial Number 2"
+      number: 202
+      file_id: 8
+      info: "Serial Number 2"
+      size: CC_CONFIG_PARAMETER_SIZE_32_BIT
+      format: CC_CONFIG_PARAMETER_FORMAT_UNSIGNED_INTEGER
+      min_value: 0
+      max_value: 2147483647
+      default_value: 2147483647
+      altering_capabilities: 0
+      read_only: 1
+      advanced: 1
+    - name: "Serial Number 3"
+      number: 203
+      file_id: 9
+      info: "Serial Number 3"
+      size: CC_CONFIG_PARAMETER_SIZE_32_BIT
+      format: CC_CONFIG_PARAMETER_FORMAT_UNSIGNED_INTEGER
+      min_value: 0
+      max_value: 2147483647
+      default_value: 2147483647
+      altering_capabilities: 0
+      read_only: 1
+      advanced: 1
+

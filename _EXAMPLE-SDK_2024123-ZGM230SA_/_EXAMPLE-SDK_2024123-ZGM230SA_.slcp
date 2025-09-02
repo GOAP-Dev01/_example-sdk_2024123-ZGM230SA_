@@ -48,6 +48,7 @@ component:
 - {id: zw_cc_basic}
 - {id: zw_cc_binary_switch}
 - {id: zw_cc_common}
+- {id: zw_cc_configuration}
 - {id: zw_cc_deviceresetlocally}
 - {id: zw_cc_firmwareupdate}
 - {id: zw_cc_indicator}
