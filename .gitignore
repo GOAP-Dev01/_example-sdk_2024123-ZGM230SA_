@@ -1,0 +1,17 @@
+# build system & build system outputs
+_EXAMPLE-SDK_2024123-ZGM230SA_/GNU ARM * - Default/**
+_EXAMPLE-SDK_2024123-ZGM230SA_/GNU ARM * - Release/**
+
+# artifacts for Simplicity Studio & remenants of builds
+_EXAMPLE-SDK_2024123-ZGM230SA_/artifacts/**
+_EXAMPLE-SDK_2024123-ZGM230SA_/.settings/**
+_EXAMPLE-SDK_2024123-ZGM230SA_/trashed_modified_files/**
+_EXAMPLE-SDK_2024123-ZGM230SA_/.pdm/**
+_EXAMPLE-SDK_2024123-ZGM230SA_/.uceditor/**
+_EXAMPLE-SDK_2024123-ZGM230SA_/*.html
+
+# VS Code remenants
+.vscode/**
+
+# Other
+**/*.bak
