@@ -1,0 +1,5 @@
+zw_cc_zwaveplusinfo:
+  endpoints:
+    - endpoint: 0
+      installer_icon_type: ICON_TYPE_GENERIC_ON_OFF_POWER_SWITCH
+      user_icon_type: ICON_TYPE_GENERIC_ON_OFF_POWER_SWITCH

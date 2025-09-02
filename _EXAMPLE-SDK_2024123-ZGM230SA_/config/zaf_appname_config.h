@@ -22,6 +22,7 @@
 // <s.29 ZAF_APP_NAME> Application Name
 // <d> "zwave_application"
 #define ZAF_APP_NAME  "switch_on_off"
+// GOAP framework
 
 // </h>
 
