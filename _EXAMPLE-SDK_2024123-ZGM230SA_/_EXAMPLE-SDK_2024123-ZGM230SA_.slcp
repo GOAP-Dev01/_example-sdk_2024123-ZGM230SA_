@@ -54,6 +54,7 @@ component:
 - {id: zw_cc_manufacturerspecific}
 - {id: zw_cc_multi_channel_control}
 - {id: zw_cc_powerlevel}
+- {id: zw_cc_security}
 - {id: zw_cc_supervision}
 - {id: zw_cc_version}
 - {id: zw_cc_zwaveplusinfo}
