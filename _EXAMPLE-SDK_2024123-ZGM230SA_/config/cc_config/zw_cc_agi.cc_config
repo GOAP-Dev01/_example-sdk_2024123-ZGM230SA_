@@ -8,3 +8,11 @@ zw_cc_agi:
           commands:
             - command_class: COMMAND_CLASS_BASIC_V2
               command: BASIC_SET_V2
+        - name: dummy_
+          profile_msb: ASSOCIATION_GROUP_INFO_REPORT_AGI_PROFILE_CONTROL
+          profile_lsb: ASSOCIATION_GROUP_INFO_REPORT_AGI_CONTROL_KEY01
+          commands:
+            - command_class: COMMAND_CLASS_SWITCH_MULTILEVEL_V4
+              command: SWITCH_MULTILEVEL_START_LEVEL_CHANGE_V4
+            - command_class: COMMAND_CLASS_SWITCH_MULTILEVEL_V4
+              command: SWITCH_MULTILEVEL_STOP_LEVEL_CHANGE_V4

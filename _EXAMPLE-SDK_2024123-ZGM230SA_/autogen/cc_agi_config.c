@@ -15,6 +15,17 @@ static const ccc_pair_t COMMANDS_ENDPOINT_1_GROUP_2[] = {
     .cmd = BASIC_SET_V2
   },
 };
+static const char GROUP_NAME_ENDPOINT_1_GROUP_3[] = "dummy_";
+static const ccc_pair_t COMMANDS_ENDPOINT_1_GROUP_3[] = {
+  {
+    .cmdClass = COMMAND_CLASS_SWITCH_MULTILEVEL_V4,
+    .cmd = SWITCH_MULTILEVEL_START_LEVEL_CHANGE_V4
+  },
+  {
+    .cmdClass = COMMAND_CLASS_SWITCH_MULTILEVEL_V4,
+    .cmd = SWITCH_MULTILEVEL_STOP_LEVEL_CHANGE_V4
+  },
+};
 
 static const cc_agi_group_t ROOT_DEVICE_GROUPS[] =
 {
@@ -27,6 +38,16 @@ static const cc_agi_group_t ROOT_DEVICE_GROUPS[] =
     },
     .ccc_pairs = COMMANDS_ENDPOINT_1_GROUP_2,
     .ccc_pair_count = sizeof_array(COMMANDS_ENDPOINT_1_GROUP_2),
+  },
+  {
+    .name = GROUP_NAME_ENDPOINT_1_GROUP_3,
+    .name_length = sizeof(GROUP_NAME_ENDPOINT_1_GROUP_3),
+    .profile = {
+      .profile_MS = ASSOCIATION_GROUP_INFO_REPORT_AGI_PROFILE_CONTROL,
+      .profile_LS = ASSOCIATION_GROUP_INFO_REPORT_AGI_CONTROL_KEY01
+    },
+    .ccc_pairs = COMMANDS_ENDPOINT_1_GROUP_3,
+    .ccc_pair_count = sizeof_array(COMMANDS_ENDPOINT_1_GROUP_3),
   },
 };
 
