@@ -21,7 +21,8 @@
 
 // <q USE_USER_APP_VERSION> false: Use Default Z-Wave version numbering, true: Use Application Version Configuration numbering
 // <i> Default: 0
-#define USE_USER_APP_VERSION  0
+#define USE_USER_APP_VERSION  1
+ // GOAP framework
 
 // </h>
 // <h> Application Version Configuration

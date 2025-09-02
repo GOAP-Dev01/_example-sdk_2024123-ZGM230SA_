@@ -22,12 +22,14 @@
 // <o CC_ASSOCIATION_MAX_GROUPS_PER_ENDPOINT> Max number of groups <1..18:1> <f.d>
 // <i> Maximum number of groups per endpoint
 // <i> Default: 1
-#define CC_ASSOCIATION_MAX_GROUPS_PER_ENDPOINT  1
+#define CC_ASSOCIATION_MAX_GROUPS_PER_ENDPOINT  1 
+ // GOAP framework
 
 // <o CC_ASSOCIATION_MAX_NODES_IN_GROUP> Max number of nodes <1..18:1> <f.d>
 // <i> Maximum number of nodes in a group
 // <i> Default: 5
-#define CC_ASSOCIATION_MAX_NODES_IN_GROUP  5
+#define CC_ASSOCIATION_MAX_NODES_IN_GROUP  9
+ // GOAP framework
 
 // </h>
 

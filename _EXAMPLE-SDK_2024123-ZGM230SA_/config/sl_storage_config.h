@@ -31,9 +31,11 @@
 // <i> is set to false. This value will control how much of the flash memory
 // <i> is reserved for bootloader storage.
 #if defined(NDEBUG)
-#define SL_BOOTLOADER_STORAGE_SIZE  0x00030000
+//#define SL_BOOTLOADER_STORAGE_SIZE  0x00030000 // GOAP framework
+#define SL_BOOTLOADER_STORAGE_SIZE  0x00000100 
 #else /* defined(NDEBUG) */
-#define SL_BOOTLOADER_STORAGE_SIZE  0x00028000
+//#define SL_BOOTLOADER_STORAGE_SIZE  0x0002C000 // GOAP framework
+#define SL_BOOTLOADER_STORAGE_SIZE  0x00000100 
 #endif /* defined(NDEBUG) */
 
 // </e>
