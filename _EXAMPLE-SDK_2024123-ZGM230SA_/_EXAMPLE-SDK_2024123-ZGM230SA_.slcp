@@ -33,7 +33,6 @@ component:
 - {id: ZGM230SA27HGN}
 - {id: ZW_MIGRATION_TO_7_19}
 - {id: app_assert}
-- {id: app_button_press}
 - {id: device_init}
 - {id: emlib_letimer}
 - {id: emlib_msc}
@@ -42,10 +41,6 @@ component:
 - {id: gpiointerrupt}
 - {id: iostream_swo}
 - {id: mpu}
-- instance: [btn0, btn1]
-  id: simple_button
-- instance: [led0, led1]
-  id: simple_led
 - {id: sl_system}
 - {id: zaf_soc}
 - {id: zw_appshw}

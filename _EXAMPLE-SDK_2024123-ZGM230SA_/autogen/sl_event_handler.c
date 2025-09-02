@@ -15,16 +15,12 @@
 #include "sl_sleeptimer.h"
 #include "sl_mpu.h"
 #include "app_log.h"
-#include "app_rta_internal.h"
 #include "sl_debug_swo.h"
 #include "sl_gpio.h"
 #include "gpiointerrupt.h"
 #include "sl_iostream_stdlib_config.h"
 #include "sl_iostream_swo.h"
 #include "sl_mbedtls.h"
-#include "sl_simple_button_instances.h"
-#include "sl_simple_led_instances.h"
-#include "app_button_press.h"
 #include "ZW_basis_api.h"
 #include "sl_cli_instances.h"
 #include "psa/crypto.h"
@@ -62,8 +58,6 @@ void sl_driver_init(void)
   sl_debug_swo_init();
   sl_gpio_init();
   GPIOINT_Init();
-  sl_simple_button_init_instances();
-  sl_simple_led_init_instances();
 }
 
 void sl_service_init(void)
@@ -90,8 +84,6 @@ void sl_stack_init(void)
 void sl_internal_app_init(void)
 {
   app_log_init();
-  app_rta_internal_init();
-  app_button_press_enable();
 }
 
 void sl_iostream_init_instances(void)

@@ -3,7 +3,7 @@
   "specVersion" : "1.6",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2025-09-02T08:33:23.673023200Z",
+    "timestamp" : "2025-09-02T08:36:53.948316600Z",
     "authors" : [ {
       "name" : "Silicon Laboratories, Inc."
     } ],
@@ -38,18 +38,6 @@
       "type" : "library",
       "bom-ref" : "simplicity_sdk:2024.12.3:app_assert",
       "name" : "Assert",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:app_button_press",
-      "name" : "Button Press",
       "version" : "2024.12.3",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -134,30 +122,6 @@
       "type" : "library",
       "bom-ref" : "simplicity_sdk:2024.12.3:mpu",
       "name" : "Simple MPU",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:simple_button",
-      "name" : "Simple Button",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:simple_led",
-      "name" : "Simple LED",
       "version" : "2024.12.3",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -268,18 +232,6 @@
       "type" : "library",
       "bom-ref" : "simplicity_sdk:2024.12.3:device_manager",
       "name" : "Device Manager",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:led",
-      "name" : "Generic LED API",
       "version" : "2024.12.3",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1240,18 +1192,6 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:simple_led_core",
-      "name" : "Simple LED Core",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
       "bom-ref" : "simplicity_sdk:2024.12.3:emlib_i2c",
       "name" : "I2C",
       "version" : "2024.12.3",
@@ -1700,18 +1640,6 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:app_queue",
-      "name" : "Application Queue",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
       "bom-ref" : "simplicity_sdk:2024.12.3:device_clock_hal",
       "name" : "Device Manager Clock HAL",
       "version" : "2024.12.3",
@@ -1782,18 +1710,6 @@
       "type" : "library",
       "bom-ref" : "simplicity_sdk:2024.12.3:mbedtls_slcrypto",
       "name" : "Silicon Labs Mbed TLS support",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:button",
-      "name" : "Generic Button API",
       "version" : "2024.12.3",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -2073,18 +1989,6 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:simple_button_core",
-      "name" : "Simple Button Configuration",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
       "bom-ref" : "simplicity_sdk:2024.12.3:iostream_stdlib_config",
       "name" : "IO Stream: STDLIB Configuration",
       "version" : "2024.12.3",
@@ -2198,18 +2102,6 @@
       "type" : "library",
       "bom-ref" : "simplicity_sdk:2024.12.3:hal_sysrtc",
       "name" : "SYSRTC",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:app_rta",
-      "name" : "Application Runtime Adaptor (RTA)",
       "version" : "2024.12.3",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."

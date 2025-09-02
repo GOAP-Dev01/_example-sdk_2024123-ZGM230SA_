@@ -13,7 +13,7 @@ DocumentNamespace: https://silabs.com
 
 ## Creation Information
 Creator: Organization: Silicon Laboratories, Inc.
-Created: 2025-09-02T08:33:23.673023200Z
+Created: 2025-09-02T08:36:53.948316600Z
 ## Relationships
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-simplicity_sdk-2024.12.3
 
@@ -27,7 +27,6 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-ZGM230SA27HGN
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-app_assert
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-app_button_press
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-device_init
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-emlib_letimer
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-emlib_msc
@@ -35,15 +34,12 @@ Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-emlib_wdog
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-gpiointerrupt
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-mpu
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-simple_button
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-simple_led
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-sl_system
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-sl_system_kernel
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-psa_crypto_ecdh
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-psa_crypto_cipher_ecb
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-power_manager
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-device_manager
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-led
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-bit
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-psa_driver_common
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-psa_crypto_trng
@@ -112,7 +108,6 @@ Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-power_manager_handler_implementation
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-psa_crypto_ecc
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-mbedtls_source
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-simple_led_core
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-emlib_i2c
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-emlib_rmu
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-emlib_iadc
@@ -144,13 +139,11 @@ Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-emlib_gpio
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-nvm3_default_flash_backend
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-emlib_lesense
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-app_queue
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-device_clock_hal
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-device_init_hfxo
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-cmsis_rtos2_init
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-printf
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-mbedtls_slcrypto
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-button
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-sl_assert
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-cmsis_rtos2_headers
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-device_clock
@@ -167,7 +160,6 @@ Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-sl_core
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-psa_crypto_ccm
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-rail_util_built_in_phys
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-simple_button_core
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-iostream_stdlib_config
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-bootloader_interface
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-mbedtls_platform_dynamic_memory_allocation_config_default
@@ -175,7 +167,6 @@ Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-cmsis_core
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-emlib_core
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-hal_sysrtc
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-app_rta
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-flash_storage
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-sleeptimer
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-psa_crypto_common
@@ -207,17 +198,6 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2024.12.3-app_assert CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
-
-## Package Information
-PackageName: Button Press
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-app_button_press
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-app_button_press CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
 
 ## Package Information
 PackageName: Automatic Device Initialization
@@ -295,28 +275,6 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2024.12.3-mpu CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
-
-## Package Information
-PackageName: Simple Button
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-simple_button
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-simple_button CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
-
-## Package Information
-PackageName: Simple LED
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-simple_led
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-simple_led CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
 
 ## Package Information
 PackageName: System Setup
@@ -411,17 +369,6 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2024.12.3-device_manager CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
-
-## Package Information
-PackageName: Generic LED API
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-led
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-led CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
 
 ## Package Information
 PackageName: Bit Operations Library
@@ -1271,17 +1218,6 @@ PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography 
 Relationship: SPDXRef-mbedtls_source-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2024.12.3-mbedtls_source
 
 ## Package Information
-PackageName: Simple LED Core
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-simple_led_core
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-simple_led_core CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
-
-## Package Information
 PackageName: I2C
 SPDXID: SPDXRef-simplicity_sdk-2024.12.3-emlib_i2c
 PackageVersion: 2024.12.3
@@ -1679,17 +1615,6 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2024.12.3-emlib_lesense CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
 
 ## Package Information
-PackageName: Application Queue
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-app_queue
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-app_queue CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
-
-## Package Information
 PackageName: Device Manager Clock HAL
 SPDXID: SPDXRef-simplicity_sdk-2024.12.3-device_clock_hal
 PackageVersion: 2024.12.3
@@ -1758,17 +1683,6 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2024.12.3-mbedtls_slcrypto CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
-
-## Package Information
-PackageName: Generic Button API
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-button
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-button CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
 
 ## Package Information
 PackageName: Assert Functions
@@ -2004,17 +1918,6 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2024.12.3-rail_util_built_in_phys CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
 
 ## Package Information
-PackageName: Simple Button Configuration
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-simple_button_core
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-simple_button_core CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
-
-## Package Information
 PackageName: IO Stream: STDLIB Configuration
 SPDXID: SPDXRef-simplicity_sdk-2024.12.3-iostream_stdlib_config
 PackageVersion: 2024.12.3
@@ -2119,17 +2022,6 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2024.12.3-hal_sysrtc CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
-
-## Package Information
-PackageName: Application Runtime Adaptor (RTA)
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-app_rta
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-app_rta CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
 
 ## Package Information
 PackageName: Flash Storage Support

@@ -10,7 +10,7 @@ referenced in this SBOM.)
 -->
 <bom xmlns="http://cyclonedx.org/schema/bom/1.6" version="1">
   <metadata>
-    <timestamp>2025-09-02T08:33:23.673023200Z</timestamp>
+    <timestamp>2025-09-02T08:36:53.948316600Z</timestamp>
     <authors>
       <author>
         <name>Silicon Laboratories, Inc.</name>
@@ -37,16 +37,6 @@ referenced in this SBOM.)
         </component>
         <component bom-ref="simplicity_sdk:2024.12.3:app_assert" type="library">
           <name>Assert</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:app_button_press" type="library">
-          <name>Button Press</name>
           <version>2024.12.3</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
@@ -117,26 +107,6 @@ referenced in this SBOM.)
         </component>
         <component bom-ref="simplicity_sdk:2024.12.3:mpu" type="library">
           <name>Simple MPU</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:simple_button" type="library">
-          <name>Simple Button</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:simple_led" type="library">
-          <name>Simple LED</name>
           <version>2024.12.3</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
@@ -235,16 +205,6 @@ referenced in this SBOM.)
         </component>
         <component bom-ref="simplicity_sdk:2024.12.3:device_manager" type="library">
           <name>Device Manager</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:led" type="library">
-          <name>Generic LED API</name>
           <version>2024.12.3</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
@@ -1067,16 +1027,6 @@ referenced in this SBOM.)
             </ancestors>
           </pedigree>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:simple_led_core" type="library">
-          <name>Simple LED Core</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
         <component bom-ref="simplicity_sdk:2024.12.3:emlib_i2c" type="library">
           <name>I2C</name>
           <version>2024.12.3</version>
@@ -1463,16 +1413,6 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:app_queue" type="library">
-          <name>Application Queue</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
         <component bom-ref="simplicity_sdk:2024.12.3:device_clock_hal" type="library">
           <name>Device Manager Clock HAL</name>
           <version>2024.12.3</version>
@@ -1535,16 +1475,6 @@ referenced in this SBOM.)
         </component>
         <component bom-ref="simplicity_sdk:2024.12.3:mbedtls_slcrypto" type="library">
           <name>Silicon Labs Mbed TLS support</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:button" type="library">
-          <name>Generic Button API</name>
           <version>2024.12.3</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
@@ -1790,16 +1720,6 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:simple_button_core" type="library">
-          <name>Simple Button Configuration</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
         <component bom-ref="simplicity_sdk:2024.12.3:iostream_stdlib_config" type="library">
           <name>IO Stream: STDLIB Configuration</name>
           <version>2024.12.3</version>
@@ -1901,16 +1821,6 @@ referenced in this SBOM.)
         </component>
         <component bom-ref="simplicity_sdk:2024.12.3:hal_sysrtc" type="library">
           <name>SYSRTC</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:app_rta" type="library">
-          <name>Application Runtime Adaptor (RTA)</name>
           <version>2024.12.3</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
