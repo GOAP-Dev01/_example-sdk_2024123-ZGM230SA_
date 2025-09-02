@@ -10,7 +10,7 @@ referenced in this SBOM.)
 -->
 <bom xmlns="http://cyclonedx.org/schema/bom/1.6" version="1">
   <metadata>
-    <timestamp>2025-09-02T08:11:05.127139200Z</timestamp>
+    <timestamp>2025-09-02T08:33:23.673023200Z</timestamp>
     <authors>
       <author>
         <name>Silicon Laboratories, Inc.</name>
@@ -2019,6 +2019,26 @@ referenced in this SBOM.)
         </component>
         <component bom-ref="simplicity_sdk:2024.12.3:gpio" type="library">
           <name>GPIO Driver</name>
+          <version>2024.12.3</version>
+	      <supplier>
+	        <name>Silicon Laboratories, Inc.</name>
+	      </supplier>
+          <licenses>
+            <expression>Zlib</expression>
+          </licenses>
+        </component>
+        <component bom-ref="simplicity_sdk:2024.12.3:iostream_swo" type="library">
+          <name>IO Stream: SWO</name>
+          <version>2024.12.3</version>
+	      <supplier>
+	        <name>Silicon Laboratories, Inc.</name>
+	      </supplier>
+          <licenses>
+            <expression>Zlib</expression>
+          </licenses>
+        </component>
+        <component bom-ref="simplicity_sdk:2024.12.3:debug_swo" type="library">
+          <name>SWO Debug</name>
           <version>2024.12.3</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>

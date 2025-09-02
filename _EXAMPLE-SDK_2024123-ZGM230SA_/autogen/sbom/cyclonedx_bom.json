@@ -3,7 +3,7 @@
   "specVersion" : "1.6",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2025-09-02T08:11:05.127139200Z",
+    "timestamp" : "2025-09-02T08:33:23.673023200Z",
     "authors" : [ {
       "name" : "Silicon Laboratories, Inc."
     } ],
@@ -2332,6 +2332,30 @@
       "type" : "library",
       "bom-ref" : "simplicity_sdk:2024.12.3:gpio",
       "name" : "GPIO Driver",
+      "version" : "2024.12.3",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "simplicity_sdk:2024.12.3:iostream_swo",
+      "name" : "IO Stream: SWO",
+      "version" : "2024.12.3",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "simplicity_sdk:2024.12.3:debug_swo",
+      "name" : "SWO Debug",
       "version" : "2024.12.3",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."

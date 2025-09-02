@@ -37,7 +37,7 @@
 #include "app_hw.h"
 #endif
 
-#ifdef DEBUGPRINT
+#if !defined(NO_DEBUGPRINT)
 static uint8_t m_aDebugPrintBuffer[96];
 #endif
 
@@ -55,7 +55,7 @@ ApplicationInit(__attribute__((unused)) zpal_reset_reason_t eResetReason)
   zpal_watchdog_init();
   zpal_enable_watchdog(true);
 
-#ifdef DEBUGPRINT
+#if !defined(NO_DEBUGPRINT)
   DebugPrintConfig(m_aDebugPrintBuffer, sizeof(m_aDebugPrintBuffer), zpal_debug_output);
   DebugPrintf("ApplicationInit eResetReason = %d\n", eResetReason);
 #endif

@@ -40,6 +40,7 @@ component:
 - {id: emlib_timer}
 - {id: emlib_wdog}
 - {id: gpiointerrupt}
+- {id: iostream_swo}
 - {id: mpu}
 - instance: [btn0, btn1]
   id: simple_button
@@ -63,6 +64,7 @@ component:
 - {id: zw_cc_zwaveplusinfo}
 - {id: zw_cli_common}
 - {id: zw_core}
+- {id: zw_debug_print}
 - {id: zw_ota}
 - {id: zw_role_type_always_on}
 - {id: zw_true_status}

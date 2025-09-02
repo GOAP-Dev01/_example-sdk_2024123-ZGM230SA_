@@ -13,7 +13,7 @@ DocumentNamespace: https://silabs.com
 
 ## Creation Information
 Creator: Organization: Silicon Laboratories, Inc.
-Created: 2025-09-02T08:11:05.127139200Z
+Created: 2025-09-02T08:33:23.673023200Z
 ## Relationships
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-simplicity_sdk-2024.12.3
 
@@ -183,6 +183,8 @@ Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-sl_common
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-mbedtls_config
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-gpio
+Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-iostream_swo
+Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-debug_swo
 
 ## Package Information
 PackageName: ZGM230SA27HGN
@@ -2233,3 +2235,25 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2024.12.3-gpio CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
+
+## Package Information
+PackageName: IO Stream: SWO
+SPDXID: SPDXRef-simplicity_sdk-2024.12.3-iostream_swo
+PackageVersion: 2024.12.3
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2024.12.3-iostream_swo CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
+
+## Package Information
+PackageName: SWO Debug
+SPDXID: SPDXRef-simplicity_sdk-2024.12.3-debug_swo
+PackageVersion: 2024.12.3
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2024.12.3-debug_swo CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
