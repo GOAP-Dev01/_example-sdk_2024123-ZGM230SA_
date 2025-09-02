@@ -10,6 +10,7 @@ cc_association_config.h=2035420009
 cc_binary_switch_config.h=406466754
 cc_config/SwitchOnOff.cc_config=1985717852
 cc_firmware_update_config.h=-1081534785
+cc_notification_config.h=-2020465445
 cc_supervision_config.h=-319394018
 emlib_core_debug_config.h=-212744839
 nvm3_default_config.h=481274132

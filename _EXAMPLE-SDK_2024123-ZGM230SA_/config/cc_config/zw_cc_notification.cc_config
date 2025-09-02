@@ -1,0 +1,9 @@
+zw_cc_notification:
+  notifications:
+    - type: NOTIFICATION_TYPE_HEAT_ALARM
+      endpoint: 0
+      agi_profile:
+        - profile_MS: ASSOCIATION_GROUP_INFO_REPORT_AGI_PROFILE_NOTIFICATION_V2
+        - profile_LS: NOTIFICATION_REPORT_HEAT_V4
+      state_events:
+        - NOTIFICATION_EVENT_HEAT_ALARM_OVERHEAT_DETECTED # Goes to idle when no longer active

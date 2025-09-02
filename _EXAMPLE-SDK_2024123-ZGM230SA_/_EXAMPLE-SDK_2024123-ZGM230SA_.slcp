@@ -56,6 +56,7 @@ component:
 - {id: zw_cc_manufacturerspecific}
 - {id: zw_cc_multi_channel_control}
 - {id: zw_cc_multilevelswitchcontrol}
+- {id: zw_cc_notification}
 - {id: zw_cc_powerlevel}
 - {id: zw_cc_security}
 - {id: zw_cc_supervision}
