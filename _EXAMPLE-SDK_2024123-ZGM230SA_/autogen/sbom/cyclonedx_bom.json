@@ -3,7 +3,7 @@
   "specVersion" : "1.6",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2025-09-02T08:36:53.948316600Z",
+    "timestamp" : "2025-09-02T08:38:42.414635400Z",
     "authors" : [ {
       "name" : "Silicon Laboratories, Inc."
     } ],
@@ -302,18 +302,6 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:iostream_retarget_stdio",
-      "name" : "IO Stream: Retarget STDIO",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
       "bom-ref" : "simplicity_sdk:2024.12.3:freertos_kernel_cortexm",
       "name" : "FreeRTOS",
       "version" : "2024.12.3",
@@ -374,18 +362,6 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:cli",
-      "name" : "CLI Instance(s)",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
       "bom-ref" : "simplicity_sdk:2024.12.3:psa_crypto_config",
       "name" : "Configuration",
       "version" : "2024.12.3",
@@ -419,30 +395,6 @@
       "type" : "library",
       "bom-ref" : "simplicity_sdk:2024.12.3:iostream",
       "name" : "IO Stream",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:cli_recommends",
-      "name" : "cli_recommends",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:cli_recommended_instance",
-      "name" : "Load recommended instance",
       "version" : "2024.12.3",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1350,30 +1302,6 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:app_log",
-      "name" : "Log",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:cli_core",
-      "name" : "CLI Global Configuration",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
       "bom-ref" : "simplicity_sdk:2024.12.3:hal_gpio",
       "name" : "GPIO",
       "version" : "2024.12.3",
@@ -1568,18 +1496,6 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:sl_string",
-      "name" : "String Functions",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
       "bom-ref" : "simplicity_sdk:2024.12.3:emlib_usart",
       "name" : "USART",
       "version" : "2024.12.3",
@@ -1693,18 +1609,6 @@
           }
         } ]
       }
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:printf",
-      "name" : "Tiny printf",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "MIT"
-      } ]
     }, {
       "scope" : "required",
       "type" : "library",
@@ -1979,18 +1883,6 @@
       "type" : "library",
       "bom-ref" : "simplicity_sdk:2024.12.3:rail_util_built_in_phys",
       "name" : "RAIL Utility, Built-in PHYs Across HFXO Frequencies",
-      "version" : "2024.12.3",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2024.12.3:iostream_stdlib_config",
-      "name" : "IO Stream: STDLIB Configuration",
       "version" : "2024.12.3",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."

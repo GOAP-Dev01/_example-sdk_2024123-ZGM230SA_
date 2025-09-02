@@ -14,15 +14,12 @@
 #include "sl_fem_util.h"
 #include "sl_sleeptimer.h"
 #include "sl_mpu.h"
-#include "app_log.h"
 #include "sl_debug_swo.h"
 #include "sl_gpio.h"
 #include "gpiointerrupt.h"
-#include "sl_iostream_stdlib_config.h"
 #include "sl_iostream_swo.h"
 #include "sl_mbedtls.h"
 #include "ZW_basis_api.h"
-#include "sl_cli_instances.h"
 #include "psa/crypto.h"
 #include "sl_se_manager.h"
 #include "cmsis_os2.h"
@@ -65,12 +62,10 @@ void sl_service_init(void)
   sl_sleeptimer_init();
   sl_hfxo_manager_init();
   sl_mpu_disable_execute_from_ram();
-  sl_iostream_stdlib_disable_buffering();
   sl_mbedtls_init();
   psa_crypto_init();
   sl_se_init();
   sl_iostream_init_instances();
-  sl_cli_instances_init();
 }
 
 void sl_stack_init(void)
@@ -83,7 +78,6 @@ void sl_stack_init(void)
 
 void sl_internal_app_init(void)
 {
-  app_log_init();
 }
 
 void sl_iostream_init_instances(void)

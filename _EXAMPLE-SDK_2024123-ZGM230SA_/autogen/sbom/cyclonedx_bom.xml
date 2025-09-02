@@ -10,7 +10,7 @@ referenced in this SBOM.)
 -->
 <bom xmlns="http://cyclonedx.org/schema/bom/1.6" version="1">
   <metadata>
-    <timestamp>2025-09-02T08:36:53.948316600Z</timestamp>
+    <timestamp>2025-09-02T08:38:42.414635400Z</timestamp>
     <authors>
       <author>
         <name>Silicon Laboratories, Inc.</name>
@@ -263,16 +263,6 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:iostream_retarget_stdio" type="library">
-          <name>IO Stream: Retarget STDIO</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
         <component bom-ref="simplicity_sdk:2024.12.3:freertos_kernel_cortexm" type="library">
           <name>FreeRTOS</name>
           <version>2024.12.3</version>
@@ -323,16 +313,6 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:cli" type="library">
-          <name>CLI Instance(s)</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
         <component bom-ref="simplicity_sdk:2024.12.3:psa_crypto_config" type="library">
           <name>Configuration</name>
           <version>2024.12.3</version>
@@ -364,26 +344,6 @@ referenced in this SBOM.)
         </component>
         <component bom-ref="simplicity_sdk:2024.12.3:iostream" type="library">
           <name>IO Stream</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:cli_recommends" type="library">
-          <name>cli_recommends</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:cli_recommended_instance" type="library">
-          <name>Load recommended instance</name>
           <version>2024.12.3</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
@@ -1165,26 +1125,6 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:app_log" type="library">
-          <name>Log</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:cli_core" type="library">
-          <name>CLI Global Configuration</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
         <component bom-ref="simplicity_sdk:2024.12.3:hal_gpio" type="library">
           <name>GPIO</name>
           <version>2024.12.3</version>
@@ -1353,16 +1293,6 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:sl_string" type="library">
-          <name>String Functions</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
         <component bom-ref="simplicity_sdk:2024.12.3:emlib_usart" type="library">
           <name>USART</name>
           <version>2024.12.3</version>
@@ -1462,16 +1392,6 @@ referenced in this SBOM.)
               </component>
             </ancestors>
           </pedigree>
-        </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:printf" type="library">
-          <name>Tiny printf</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>MIT</expression>
-          </licenses>
         </component>
         <component bom-ref="simplicity_sdk:2024.12.3:mbedtls_slcrypto" type="library">
           <name>Silicon Labs Mbed TLS support</name>
@@ -1712,16 +1632,6 @@ referenced in this SBOM.)
         </component>
         <component bom-ref="simplicity_sdk:2024.12.3:rail_util_built_in_phys" type="library">
           <name>RAIL Utility, Built-in PHYs Across HFXO Frequencies</name>
-          <version>2024.12.3</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
-        <component bom-ref="simplicity_sdk:2024.12.3:iostream_stdlib_config" type="library">
-          <name>IO Stream: STDLIB Configuration</name>
           <version>2024.12.3</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>

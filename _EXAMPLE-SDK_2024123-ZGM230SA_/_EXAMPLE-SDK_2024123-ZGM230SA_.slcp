@@ -57,7 +57,6 @@ component:
 - {id: zw_cc_supervision}
 - {id: zw_cc_version}
 - {id: zw_cc_zwaveplusinfo}
-- {id: zw_cli_common}
 - {id: zw_core}
 - {id: zw_debug_print}
 - {id: zw_ota}

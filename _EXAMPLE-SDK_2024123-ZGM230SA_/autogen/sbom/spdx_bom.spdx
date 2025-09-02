@@ -13,7 +13,7 @@ DocumentNamespace: https://silabs.com
 
 ## Creation Information
 Creator: Organization: Silicon Laboratories, Inc.
-Created: 2025-09-02T08:36:53.948316600Z
+Created: 2025-09-02T08:38:42.414635400Z
 ## Relationships
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-simplicity_sdk-2024.12.3
 
@@ -45,17 +45,13 @@ Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-psa_crypto_trng
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-slist
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-device_gpio
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-iostream_retarget_stdio
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-freertos_kernel_cortexm
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-emlib_ldma
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-nvm3_source
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-nvm3_default_config
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-emlib
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-cli
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-psa_crypto_config
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-iostream
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-cli_recommends
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-cli_recommended_instance
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-psa_crypto_aes
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-emlib_opamp
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-se_manager_crypto
@@ -118,8 +114,6 @@ Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-psa_crypto_cmac
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-mbedtls_slcrypto_driver
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-emlib_system
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-app_log
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-cli_core
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-hal_gpio
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-rail_lib
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-se_manager
@@ -133,7 +127,6 @@ Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-interrupt_manager_cortexm
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-rail_util_features
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-emlib_gpcrc
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-sl_string
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-emlib_usart
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-rail_util_power_manager_init
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-emlib_gpio
@@ -142,7 +135,6 @@ Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-device_clock_hal
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-device_init_hfxo
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-cmsis_rtos2_init
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-printf
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-mbedtls_slcrypto
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-sl_assert
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-cmsis_rtos2_headers
@@ -160,7 +152,6 @@ Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-sl_core
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-psa_crypto_ccm
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-rail_util_built_in_phys
-Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-iostream_stdlib_config
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-bootloader_interface
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-mbedtls_platform_dynamic_memory_allocation_config_default
 Relationship: SPDXRef-simplicity_sdk-2024.12.3 CONTAINS SPDXRef-simplicity_sdk-2024.12.3-fem_util
@@ -426,17 +417,6 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2024.12.3-device_gpio CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
 
 ## Package Information
-PackageName: IO Stream: Retarget STDIO
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-iostream_retarget_stdio
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-iostream_retarget_stdio CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
-
-## Package Information
 PackageName: FreeRTOS
 SPDXID: SPDXRef-simplicity_sdk-2024.12.3-freertos_kernel_cortexm
 PackageVersion: 2024.12.3
@@ -492,17 +472,6 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2024.12.3-emlib CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
 
 ## Package Information
-PackageName: CLI Instance(s)
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-cli
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
-
-## Package Information
 PackageName: Configuration
 SPDXID: SPDXRef-simplicity_sdk-2024.12.3-psa_crypto_config
 PackageVersion: 2024.12.3
@@ -537,28 +506,6 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2024.12.3-iostream CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
-
-## Package Information
-PackageName: cli_recommends
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-cli_recommends
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-cli_recommends CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
-
-## Package Information
-PackageName: Load recommended instance
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-cli_recommended_instance
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-cli_recommended_instance CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
 
 ## Package Information
 PackageName: AES Block Cipher
@@ -1356,28 +1303,6 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2024.12.3-emlib_system CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
 
 ## Package Information
-PackageName: Log
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-app_log
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-app_log CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
-
-## Package Information
-PackageName: CLI Global Configuration
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-cli_core
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-cli_core CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
-
-## Package Information
 PackageName: GPIO
 SPDXID: SPDXRef-simplicity_sdk-2024.12.3-hal_gpio
 PackageVersion: 2024.12.3
@@ -1549,17 +1474,6 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2024.12.3-emlib_gpcrc CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
 
 ## Package Information
-PackageName: String Functions
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-sl_string
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-sl_string CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
-
-## Package Information
 PackageName: USART
 SPDXID: SPDXRef-simplicity_sdk-2024.12.3-emlib_usart
 PackageVersion: 2024.12.3
@@ -1661,17 +1575,6 @@ ExternalRef: PACKAGE-MANAGER purl pkg:github/ARM-software/CMSIS_5@5.8.0
 PackageComment: <text>The CMSIS is a set of tools, APIs, frameworks, and work flows</text>
 ## Relationships
 Relationship: SPDXRef-cmsis_rtos2_init-5.8.0 DESCENDANT_OF SPDXRef-simplicity_sdk-2024.12.3-cmsis_rtos2_init
-
-## Package Information
-PackageName: Tiny printf
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-printf
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MIT
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-printf CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
 
 ## Package Information
 PackageName: Silicon Labs Mbed TLS support
@@ -1916,17 +1819,6 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2024.12.3-rail_util_built_in_phys CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
-
-## Package Information
-PackageName: IO Stream: STDLIB Configuration
-SPDXID: SPDXRef-simplicity_sdk-2024.12.3-iostream_stdlib_config
-PackageVersion: 2024.12.3
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.3-iostream_stdlib_config CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.3
 
 ## Package Information
 PackageName: Bootloader Application Interface

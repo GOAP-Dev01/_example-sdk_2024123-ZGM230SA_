@@ -5,7 +5,7 @@
   "name" : "Silicon-Laboratories",
   "documentNamespace" : "https://silabs.com",
   "creationInfo" : {
-    "created" : "2025-09-02T08:36:53.948316600Z",
+    "created" : "2025-09-02T08:38:42.414635400Z",
     "creators" : [ "Tool: Silicon Labs Configuration Tooling" ]
   },
   "comment" : "TERMS OF USE - SILICON LABORATORIES INC.\n(With respect to Silicon Labs software components, this Software Bill of Materials (SBOM) is based upon Silicon Labs'\nreview and analysis of the code version when released.  It is provided \"AS IS\" and does not modify, change or alter\nthe terms or conditions of your use of Silicon Labs' software and/or SDKs based upon license terms and/or agreements\nassociated with this software or SDKs when distributed to you, received by you, or installed by you.  Further, no\nwarranties or obligations are created by this SBOM.  It is your obligation to comply with the terms of licenses\nreferenced in this SBOM.)",
@@ -198,14 +198,6 @@
     "supplier" : "Organization: Silicon Laboratories, Inc.",
     "licenseConcluded" : "Zlib"
   }, {
-    "SPDXID" : "SPDXRef-simplicity_sdk-2024.12.3-iostream_retarget_stdio",
-    "name" : "IO Stream: Retarget STDIO",
-    "versionInfo" : "2024.12.3",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: Silicon Laboratories, Inc.",
-    "licenseConcluded" : "Zlib"
-  }, {
     "SPDXID" : "SPDXRef-simplicity_sdk-2024.12.3-freertos_kernel_cortexm",
     "name" : "FreeRTOS",
     "versionInfo" : "2024.12.3",
@@ -246,14 +238,6 @@
     "supplier" : "Organization: Silicon Laboratories, Inc.",
     "licenseConcluded" : "Zlib"
   }, {
-    "SPDXID" : "SPDXRef-simplicity_sdk-2024.12.3-cli",
-    "name" : "CLI Instance(s)",
-    "versionInfo" : "2024.12.3",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: Silicon Laboratories, Inc.",
-    "licenseConcluded" : "Zlib"
-  }, {
     "SPDXID" : "SPDXRef-simplicity_sdk-2024.12.3-psa_crypto_config",
     "name" : "Configuration",
     "versionInfo" : "2024.12.3",
@@ -274,22 +258,6 @@
   }, {
     "SPDXID" : "SPDXRef-simplicity_sdk-2024.12.3-iostream",
     "name" : "IO Stream",
-    "versionInfo" : "2024.12.3",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: Silicon Laboratories, Inc.",
-    "licenseConcluded" : "Zlib"
-  }, {
-    "SPDXID" : "SPDXRef-simplicity_sdk-2024.12.3-cli_recommends",
-    "name" : "cli_recommends",
-    "versionInfo" : "2024.12.3",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: Silicon Laboratories, Inc.",
-    "licenseConcluded" : "Zlib"
-  }, {
-    "SPDXID" : "SPDXRef-simplicity_sdk-2024.12.3-cli_recommended_instance",
-    "name" : "Load recommended instance",
     "versionInfo" : "2024.12.3",
     "primaryPackagePurpose" : "LIBRARY",
     "downloadLocation" : "NOASSERTION",
@@ -877,22 +845,6 @@
     "supplier" : "Organization: Silicon Laboratories, Inc.",
     "licenseConcluded" : "Zlib"
   }, {
-    "SPDXID" : "SPDXRef-simplicity_sdk-2024.12.3-app_log",
-    "name" : "Log",
-    "versionInfo" : "2024.12.3",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: Silicon Laboratories, Inc.",
-    "licenseConcluded" : "Zlib"
-  }, {
-    "SPDXID" : "SPDXRef-simplicity_sdk-2024.12.3-cli_core",
-    "name" : "CLI Global Configuration",
-    "versionInfo" : "2024.12.3",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: Silicon Laboratories, Inc.",
-    "licenseConcluded" : "Zlib"
-  }, {
     "SPDXID" : "SPDXRef-simplicity_sdk-2024.12.3-hal_gpio",
     "name" : "GPIO",
     "versionInfo" : "2024.12.3",
@@ -1017,14 +969,6 @@
     "supplier" : "Organization: Silicon Laboratories, Inc.",
     "licenseConcluded" : "Zlib"
   }, {
-    "SPDXID" : "SPDXRef-simplicity_sdk-2024.12.3-sl_string",
-    "name" : "String Functions",
-    "versionInfo" : "2024.12.3",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: Silicon Laboratories, Inc.",
-    "licenseConcluded" : "Zlib"
-  }, {
     "SPDXID" : "SPDXRef-simplicity_sdk-2024.12.3-emlib_usart",
     "name" : "USART",
     "versionInfo" : "2024.12.3",
@@ -1103,14 +1047,6 @@
       "referenceType" : "purl"
     } ],
     "comment" : "The CMSIS is a set of tools, APIs, frameworks, and work flows"
-  }, {
-    "SPDXID" : "SPDXRef-simplicity_sdk-2024.12.3-printf",
-    "name" : "Tiny printf",
-    "versionInfo" : "2024.12.3",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: Silicon Laboratories, Inc.",
-    "licenseConcluded" : "MIT"
   }, {
     "SPDXID" : "SPDXRef-simplicity_sdk-2024.12.3-mbedtls_slcrypto",
     "name" : "Silicon Labs Mbed TLS support",
@@ -1287,14 +1223,6 @@
   }, {
     "SPDXID" : "SPDXRef-simplicity_sdk-2024.12.3-rail_util_built_in_phys",
     "name" : "RAIL Utility, Built-in PHYs Across HFXO Frequencies",
-    "versionInfo" : "2024.12.3",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: Silicon Laboratories, Inc.",
-    "licenseConcluded" : "Zlib"
-  }, {
-    "SPDXID" : "SPDXRef-simplicity_sdk-2024.12.3-iostream_stdlib_config",
-    "name" : "IO Stream: STDLIB Configuration",
     "versionInfo" : "2024.12.3",
     "primaryPackagePurpose" : "LIBRARY",
     "downloadLocation" : "NOASSERTION",
@@ -1560,10 +1488,6 @@
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
-    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2024.12.3-iostream_retarget_stdio",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
     "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2024.12.3-freertos_kernel_cortexm",
     "relationshipType" : "CONTAINS"
   }, {
@@ -1584,10 +1508,6 @@
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
-    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2024.12.3-cli",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
     "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2024.12.3-psa_crypto_config",
     "relationshipType" : "CONTAINS"
   }, {
@@ -1597,14 +1517,6 @@
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
     "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2024.12.3-iostream",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
-    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2024.12.3-cli_recommends",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
-    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2024.12.3-cli_recommended_instance",
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
@@ -1888,14 +1800,6 @@
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
-    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2024.12.3-app_log",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
-    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2024.12.3-cli_core",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
     "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2024.12.3-hal_gpio",
     "relationshipType" : "CONTAINS"
   }, {
@@ -1956,10 +1860,6 @@
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
-    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2024.12.3-sl_string",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
     "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2024.12.3-emlib_usart",
     "relationshipType" : "CONTAINS"
   }, {
@@ -1994,10 +1894,6 @@
     "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3-cmsis_rtos2_init",
     "relatedSpdxElement" : "SPDXRef-cmsis_rtos2_init-5.8.0",
     "relationshipType" : "ANCESTOR_OF"
-  }, {
-    "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
-    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2024.12.3-printf",
-    "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
     "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2024.12.3-mbedtls_slcrypto",
@@ -2081,10 +1977,6 @@
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
     "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2024.12.3-rail_util_built_in_phys",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
-    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2024.12.3-iostream_stdlib_config",
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2024.12.3",
